@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
-gem "rails", "~> 7.0.6"
+gem "rails", github: "rails/rails", branch: "main"
 gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
@@ -26,6 +26,8 @@ group :development do
   gem "rubocop-performance"
   gem "rubocop-rails"
   gem "rubocop-md"
+
+  gem "mrsk"
 end
 
 group :test do

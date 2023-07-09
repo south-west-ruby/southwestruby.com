@@ -1,0 +1,14 @@
+service: southwestruby
+image: lewispb/southwestruby
+
+servers:
+  - 142.93.43.219
+
+registry:
+  username: lewispb
+  password:
+    - MRSK_REGISTRY_PASSWORD
+
+env:
+  secret:
+    - RAILS_MASTER_KEY
