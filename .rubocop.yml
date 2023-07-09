@@ -1,0 +1,4 @@
+inherit_from: https://raw.githubusercontent.com/rails/rails/main/.rubocop.yml
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
