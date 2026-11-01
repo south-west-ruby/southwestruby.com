@@ -67,3 +67,31 @@ img {
     }
   }
 }
+
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  font-size: 1.2em;
+  color: #494949;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &__icon {
+    width: 2em;
+    height: 2em;
+  }
+
+  &__label {
+    margin-right: 0.3em;
+    padding: 0.15em 0.5em;
+    font-size: 0.75em;
+    color: #ffffff;
+    background: #c81f30;
+    border-radius: 1em;
+  }
+}
