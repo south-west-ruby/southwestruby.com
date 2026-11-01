@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
 
   background: linear-gradient(-45deg, #ffffff, #fdbfbf, #ffebeb, #fff8f8);
@@ -29,69 +29,83 @@ body {
 }
 
 img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 .hero {
-  height: 100%;
+  box-sizing: border-box;
+  min-height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
+  padding: 2em 1em;
 
   &__content {
-    display: block;
-    margin: auto;
-    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5em;
+    width: min(100%, 720px);
+  }
 
-    & > * {
-      margin-bottom: 2em;
-    }
+  &__logo img {
+    width: 100%;
   }
 
   &__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em 2em;
+    margin: 0;
+    padding: 0;
     list-style: none;
-    text-align: center;
 
-    li {
-      display: inline;
-      margin-right: 2em;
+    a {
+      font-size: 1.2em;
+      color: #494949;
+      text-decoration: none;
 
-      a {
-        font-size: 1.2em;
-        text-decoration: none;
-        color: #494949;
-
-        &:hover {
-          text-decoration: underline;
-        }
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
 }
 
 .coming-soon {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 0.6em;
-  font-size: 1.2em;
+  gap: 0.75em;
+  padding: 0.5em 1.25em 0.5em 0.5em;
+  font-size: 1.1em;
+  line-height: 1.2;
   color: #494949;
   text-decoration: none;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
 
   &:hover {
-    text-decoration: underline;
+    background: #ffffff;
   }
 
   &__icon {
-    width: 2em;
-    height: 2em;
+    flex: none;
+    width: 2.2em;
+    height: 2.2em;
   }
 
   &__label {
-    margin-right: 0.3em;
-    padding: 0.15em 0.5em;
-    font-size: 0.75em;
+    padding: 0.25em 0.65em;
+    font-size: 0.8em;
+    font-weight: 600;
     color: #ffffff;
     background: #c81f30;
-    border-radius: 1em;
+    border-radius: 999px;
+  }
+
+  &__name {
+    font-weight: 600;
   }
 }
