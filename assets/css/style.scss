@@ -57,18 +57,26 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.5em 2em;
+    gap: 0.75em;
     margin: 0;
     padding: 0;
     list-style: none;
 
     a {
-      font-size: 1.2em;
+      display: inline-flex;
+      align-items: center;
+      min-height: 2.2em;
+      padding: 0.5em 1.25em;
+      font-size: 1.1em;
+      font-weight: 600;
+      line-height: 1.2;
       color: #494949;
       text-decoration: none;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 999px;
 
       &:hover {
-        text-decoration: underline;
+        background: #ffffff;
       }
     }
   }
