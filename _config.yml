@@ -1,0 +1,13 @@
+title: South West Ruby
+description: The Ruby meetup in Bristol, UK.
+url: https://www.southwestruby.com
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
