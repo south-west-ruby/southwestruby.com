@@ -1,0 +1,95 @@
+---
+layout: page
+title: Photos
+permalink: /photos/
+main_class: photos
+description: Photos from South West Ruby meetups in Bristol, 2018 to 2024.
+---
+{%- assign count = 0 -%}
+{%- for event in site.data.photos -%}
+  {%- assign count = count | plus: event.photos.size -%}
+{%- endfor -%}
+
+<div class="intro">
+  <h1>Photos</h1>
+  <p>{{ count }} photos from South West Ruby meetups in Bristol, 2018 to 2024, posted to Meetup by the people who were there. Until August 2018 the meetup was called Great Western Rails.</p>
+  <p class="intro__note">If you are in a photo and want it removed, email <a href="mailto:lewis@southwestruby.com">lewis@southwestruby.com</a>.</p>
+</div>
+
+{% for event in site.data.photos %}
+{%- if event.album -%}
+  {%- assign context = event.title -%}
+{%- else -%}
+  {%- capture context %}{{ event.title }}{% if event.subtitle %}: {{ event.subtitle }}{% endif %}, {{ event.date | date: "%A %-d %B %Y" }}, {{ event.venue }}{% endcapture -%}
+{%- endif -%}
+{%- if forloop.first %}{% assign loading = "eager" %}{% else %}{% assign loading = "lazy" %}{% endif %}
+<section class="event" aria-labelledby="event-{{ forloop.index }}" data-context="{{ context | escape }}"{% if event.meetup %} data-meetup="{{ event.meetup }}"{% endif %}>
+  <div class="event__info">
+    <h2 class="event__title" id="event-{{ forloop.index }}">{{ event.title }}</h2>
+    {%- if event.subtitle %}
+    <p class="event__subtitle">{{ event.subtitle }}</p>
+    {%- endif %}
+    {%- if event.album %}
+    <p class="event__when">Photos that members added to the group’s album on Meetup rather than to one event.</p>
+    {%- else %}
+    <p class="event__when"><time datetime="{{ event.date | date: '%Y-%m-%d' }}">{{ event.date | date: "%A %-d %B %Y" }}</time><br>{{ event.venue }}</p>
+    {%- endif %}
+    {%- if event.talks.size > 0 %}
+    <h3 class="visually-hidden">Talks</h3>
+    <ul class="event__talks">
+      {%- for talk in event.talks %}
+      <li><span class="event__talk-title">{{ talk.title }}</span>{% if talk.speaker %} <span class="event__talk-speaker">{{ talk.speaker }}</span>{% endif %}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    {%- if event.meetup %}
+    <a class="event__link" href="{{ event.meetup }}">Event page on Meetup</a>
+    {%- endif %}
+  </div>
+
+  <ul class="gallery">
+    {%- for photo in event.photos %}
+    <li style="--w: {{ photo.width }}; --h: {{ photo.height }}">
+      <a id="{{ photo.id }}" href="{{ '/assets/photos/' | append: photo.id | append: '.webp' | relative_url }}"
+        data-width="{{ photo.large_width }}" data-height="{{ photo.large_height }}"
+        {%- if photo.caption %} data-caption="{{ photo.caption | escape }}"{% endif %}
+        {%- if photo.talk %} data-talk="“{{ photo.talk.title | escape }}”, a talk by {{ photo.talk.speaker | escape }}"{% endif %}
+        {%- if photo.posted %} data-context="{{ event.title }}, posted on {{ photo.posted | date: '%-d %B %Y' }}"{% endif %}
+        data-by="{{ photo.by | escape }}">
+        <img src="{{ '/assets/photos/thumbs/' | append: photo.id | append: '.webp' | relative_url }}" width="{{ photo.width }}" height="{{ photo.height }}" alt="{{ photo.alt | escape }}" loading="{{ loading }}" decoding="async">
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+<dialog class="lightbox" aria-label="Photo viewer">
+  <div class="lightbox__bar">
+    <p class="lightbox__count"></p>
+    <button class="lightbox__button" type="button" data-action="close" aria-label="Close">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="lightbox__stage">
+    <img class="lightbox__image" alt="">
+    <button class="lightbox__button lightbox__step lightbox__step--previous" type="button" data-action="previous" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="lightbox__button lightbox__step lightbox__step--next" type="button" data-action="next" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+  <div class="lightbox__caption" aria-live="polite">
+    <p class="lightbox__text"></p>
+    <p class="lightbox__talk"></p>
+    <p class="lightbox__meta">
+      <span class="lightbox__context"></span>
+      <span class="lightbox__by"></span>
+      <a class="lightbox__meetup" href="">Event page on Meetup</a>
+    </p>
+  </div>
+</dialog>
+
+<script src="{{ '/assets/js/gallery.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/lightbox.js' | relative_url }}" defer></script>

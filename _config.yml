@@ -11,3 +11,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Photos shown in the Photos link on the home page (assets/photos/nav).
+nav_photos:
+  - 2018-08-07-10
+  - 2019-05-21-03
+  - 2018-01-16-01

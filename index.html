@@ -3,14 +3,10 @@ layout: default
 ---
 <div class="hero">
   <div class="hero__content">
-    <div class="hero__logo">
-      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="South West Ruby">
-    </div>
-    <ul class="hero__links">
-      <li><a href="https://circle.southwestruby.com/">Community</a></li>
-      <li><a href="https://twitter.com/southwestruby/">Twitter</a></li>
-      <li><a href="https://github.com/south-west-ruby">GitHub</a></li>
-    </ul>
+    <h1 class="hero__logo">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="South West Ruby" width="1612" height="600">
+    </h1>
+    {% include nav.html hero=true %}
     <a class="coming-soon" href="https://www.ukruby.com">
       <img class="coming-soon__icon" src="{{ '/assets/images/ukruby.svg' | relative_url }}" alt="">
       <span class="coming-soon__label">coming soon</span>

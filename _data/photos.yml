@@ -1,0 +1,828 @@
+---
+- title: 'South West Ruby #44'
+  date: 2024-07-09
+  venue: Golden Guinea
+  meetup: https://www.meetup.com/south-west-ruby/events/301511389/
+  talks:
+  - title: Getting Started with Solid Queue - The new default ActiveJob backend for Rails 8
+    speaker: Miles Woodroffe
+  - title: SyntaxTree And Me
+    speaker: Karl Entwistle
+  photos:
+  - id: 2024-07-09-01
+    width: 800
+    height: 450
+    large_width: 960
+    large_height: 540
+    alt: A pub room with leather sofas, a red armchair and fairy lights.
+    by: Lewis Buckley
+- title: 'South West Ruby #43'
+  date: 2023-07-19
+  venue: Immersive Labs
+  meetup: https://www.meetup.com/south-west-ruby/events/294178141/
+  talks:
+  - title: Hey, spam or ham?
+    speaker: Lewis Buckley
+  - title: Data Indexing with RGB (Ruby, Graphs and Bitmaps)
+    speaker: Benji Lewis
+  photos:
+  - id: 2023-07-19-01
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: 'A speaker at a clear lectern presents a slide that reads: Spam or Ham?'
+    talk:
+      title: Hey, spam or ham?
+      speaker: Lewis Buckley
+    by: Lewis Buckley
+  - id: 2023-07-19-02
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: 'A speaker at a lectern presents a slide that reads: Data Indexing with RGB (Ruby, Graphs & Bitmaps).'
+    talk:
+      title: Data Indexing with RGB (Ruby, Graphs and Bitmaps)
+      speaker: Benji Lewis
+    by: Lewis Buckley
+  - id: 2023-07-19-03
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: Four attendees wearing lanyards stand together for a photo in a sunny office.
+    by: Lewis Buckley
+- title: 'South West Ruby #40'
+  date: 2022-09-22
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/288284989/
+  talks:
+  - title: Ruby on Rails Tricks
+    speaker: Sonia Ksenija Vasjko
+  - title: ruby/debug - The best investment for your productivity
+    speaker: Stan Lo
+  photos:
+  - id: 2022-09-22-01
+    width: 676
+    height: 380
+    large_width: 676
+    large_height: 380
+    alt: A large audience faces a speaker under a Cookpad sign.
+    by: ollieh-m
+  - id: 2022-09-22-02
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: A full room at long tables watches a slide under a Cookpad sign.
+    by: Lewis Buckley
+- title: 'South West Ruby #39'
+  date: 2022-08-11
+  venue: Immersive Labs
+  meetup: https://www.meetup.com/south-west-ruby/events/287301840/
+  talks:
+  - title: Finding Stability in an Unstable World
+    speaker: Chris Seaton
+  photos:
+  - id: 2022-08-11-01
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: Attendees sitting on low seats and benches in an office, watching a talk.
+    by: Son Truong
+  - id: 2022-08-11-02
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: A speaker by a clear lectern gestures beside a screen of code.
+    by: Son Truong
+  - id: 2022-08-11-03
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: A speaker walks in front of a screen of code.
+    by: Son Truong
+- title: 'South West Ruby #36'
+  date: 2022-03-16
+  venue: Newtown Park Brewing Co
+  meetup: https://www.meetup.com/south-west-ruby/events/284364403/
+  talks:
+  - title: Lessons for developers from the Post Office Horizon scandal
+    speaker: Tom Cartwright
+  photos:
+  - id: 2022-03-16-01
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1012
+    alt: An audience on sofas watches a speaker and a slide on a screen, under fairy lights and bunting.
+    by: Lewis Buckley
+- title: 'South West Ruby #35'
+  date: 2022-02-16
+  venue: Newtown Park Brewing Co
+  meetup: https://www.meetup.com/south-west-ruby/events/283546498/
+  talks:
+  - title: Keeping Developers Happy with a Fast CI
+    speaker: Christian Bruckmayer
+  photos:
+  - id: 2022-02-16-01
+    width: 800
+    height: 600
+    large_width: 1024
+    large_height: 768
+    alt: A room with a wooden floor, sofas, fairy lights and a bar, with a few people sitting down.
+    caption: The Brewery space
+    by: Lewis Buckley
+- title: 'South West Ruby #17'
+  date: 2019-05-21
+  venue: 5 Broad Plain
+  meetup: https://www.meetup.com/south-west-ruby/events/260876286/
+  talks:
+  - title: Intro to Ruby for developers and testers
+    speaker: Richard Brooke
+  - title: Making the world a better place with RubyMap
+    speaker: Lewis Buckley
+  - title: What does a Coconut and Serverless have in common?
+    speaker: Denis Sellu
+  photos:
+  - id: 2019-05-21-01
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in glasses talks from behind a laptop.
+    by: Adam Butler
+  - id: 2019-05-21-02
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A slide of Ruby code titled Easy – Encapsulation 3, beside a listener.
+    by: Adam Butler
+  - id: 2019-05-21-03
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Three people in the audience smile as they listen.
+    by: Adam Butler
+  - id: 2019-05-21-04
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A speaker in a white T-shirt gestures as he talks.
+    by: Adam Butler
+  - id: 2019-05-21-05
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a white T-shirt, with a can on the table in front of him.
+    by: Adam Butler
+  - id: 2019-05-21-06
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A man smiles as he looks down at his laptop.
+    by: Adam Butler
+  - id: 2019-05-21-07
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A speaker in glasses gestures with both hands.
+    by: Adam Butler
+- title: 'South West Ruby #11'
+  subtitle: Lightning talks
+  date: 2018-11-20
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/255809638/
+  talks:
+  - title: Better logs with Rails, Logstash & Kibana
+    speaker: Adam Butler
+  - title: Compiling a timeline with UNION
+    speaker: Ollie Haydon-Mulligan
+  - title: Java is for Platonists and Ruby is for Aristotelians
+    speaker: Richard Brooke
+  - title: Techniques for reworking long/TCR-style branches
+    speaker: Stefan Magnuson
+  photos:
+  - id: 2018-11-20-01
+    width: 800
+    height: 432
+    large_width: 1800
+    large_height: 972
+    alt: A speaker in a checked shirt stands beside a large projected slide.
+    by: Adam Butler
+  - id: 2018-11-20-02
+    width: 800
+    height: 440
+    large_width: 1800
+    large_height: 991
+    alt: 'A speaker in a green jumper next to a slide that reads: Java is for Platonists, Ruby is for Aristotelians.'
+    talk:
+      title: Java is for Platonists and Ruby is for Aristotelians
+      speaker: Richard Brooke
+    by: Adam Butler
+  - id: 2018-11-20-03
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Close-up of the speaker in the green jumper in front of his slide.
+    by: Adam Butler
+  - id: 2018-11-20-04
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: A speaker at a laptop next to a slide of a timeline_items database table.
+    talk:
+      title: Compiling a timeline with UNION
+      speaker: Ollie Haydon-Mulligan
+    by: Adam Butler
+  - id: 2018-11-20-05
+    width: 533
+    height: 800
+    large_width: 1199
+    large_height: 1800
+    alt: A speaker in a blue jumper points at his laptop.
+    by: Adam Butler
+  - id: 2018-11-20-06
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A bearded man in glasses, listening.
+    by: Adam Butler
+  - id: 2018-11-20-07
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A man in a grey hoodie talks while holding a phone.
+    by: Adam Butler
+  - id: 2018-11-20-08
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Three attendees talking at a table with drinks.
+    by: Adam Butler
+  - id: 2018-11-20-09
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: The speaker in the green jumper holds his notes and raises a finger.
+    by: Adam Butler
+  - id: 2018-11-20-10
+    width: 547
+    height: 800
+    large_width: 1230
+    large_height: 1800
+    alt: A speaker in a checked shirt talks while holding a phone.
+    by: Adam Butler
+  - id: 2018-11-20-11
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A bearded man behind a laptop smiles and raises a hand.
+    by: Adam Butler
+  - id: 2018-11-20-12
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Close-up of a man laughing.
+    by: Adam Butler
+  - id: 2018-11-20-13
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Attendees laughing and talking around a table.
+    by: Adam Butler
+  - id: 2018-11-20-14
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Three people in conversation at a wooden table.
+    by: Adam Butler
+  - id: 2018-11-20-15
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A bearded man behind a laptop talks and gestures.
+    by: Adam Butler
+  - id: 2018-11-20-16
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A man in a grey hoodie talks to another attendee.
+    by: Adam Butler
+  - id: 2018-11-20-17
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A man leans on a table to talk to two seated attendees.
+    by: Adam Butler
+  - id: 2018-11-20-18
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A bearded man sits at a table with two laptops, looking towards the screen.
+    by: Adam Butler
+- title: 'South West Ruby #10'
+  date: 2018-10-16
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/254995539/
+  talks:
+  - title: Creating a scalable and maintainable advanced search with Elasticsearch and Virtus
+    speaker: Nicolas Alpi
+  - title: Automate your home with Ruby
+    speaker: Karl Entwistle
+  photos:
+  - id: 2018-10-16-01
+    width: 800
+    height: 393
+    large_width: 1800
+    large_height: 885
+    alt: A speaker stands by leather sofas in front of a slide about search with Elasticsearch, with a camera on a tripod.
+    talk:
+      title: Creating a scalable and maintainable advanced search with Elasticsearch and Virtus
+      speaker: Nicolas Alpi
+    by: Adam Butler
+  - id: 2018-10-16-02
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A speaker in a black hoodie gestures with both hands.
+    by: Adam Butler
+  - id: 2018-10-16-03
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a navy hoodie points towards the audience.
+    by: Adam Butler
+  - id: 2018-10-16-04
+    width: 800
+    height: 410
+    large_width: 1800
+    large_height: 921
+    alt: A speaker presents a slide titled HomeKit, with a camera on a tripod in front of him.
+    talk:
+      title: Automate your home with Ruby
+      speaker: Karl Entwistle
+    by: Adam Butler
+  - id: 2018-10-16-05
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A speaker in a navy hoodie talks with one hand raised.
+    by: Adam Butler
+- title: South West Ruby
+  subtitle: Kafka special
+  date: 2018-09-18
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/252899232/
+  talks:
+  - title: Intro to Kafka and Karafka for Rubyists
+    speaker: Maciej Mensfeld
+  - title: Kafka at Cookpad
+    speaker: Lewis Buckley
+  photos:
+  - id: 2018-09-18-01
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a Cookpad T-shirt in front of an abstract painting.
+    by: Adam Butler
+  - id: 2018-09-18-02
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a Cookpad T-shirt talks from behind a laptop.
+    by: Adam Butler
+  - id: 2018-09-18-03
+    width: 800
+    height: 457
+    large_width: 1800
+    large_height: 1029
+    alt: A speaker in a room with leather sofas, next to a slide with the Cookpad logo.
+    by: Adam Butler
+  - id: 2018-09-18-04
+    width: 800
+    height: 468
+    large_width: 1800
+    large_height: 1052
+    alt: A speaker below a slide with the Karafka logo.
+    talk:
+      title: Intro to Kafka and Karafka for Rubyists
+      speaker: Maciej Mensfeld
+    by: Adam Butler
+  - id: 2018-09-18-05
+    width: 566
+    height: 800
+    large_width: 1274
+    large_height: 1800
+    alt: A speaker wearing a lanyard holds a bottle and talks.
+    by: Adam Butler
+  - id: 2018-09-18-06
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A man in glasses looks at a red phone.
+    by: Adam Butler
+- title: 'South West Ruby #8'
+  date: 2018-08-07
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/252899113/
+  talks:
+  - title: The Overnight Failure
+    speaker: Sebastian Sogamoso
+  - title: Webapps for the rest of the world
+    speaker: Didik Wicaksono
+  photos:
+  - id: 2018-08-07-01
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: 'A man in a black T-shirt smiles in front of a slide that reads: Webapps for the rest of the world.'
+    by: Adam Butler
+  - id: 2018-08-07-02
+    width: 800
+    height: 381
+    large_width: 1800
+    large_height: 856
+    alt: 'A speaker at a lectern next to a Cookpad banner and a slide that reads: Webapps for the rest of the world.'
+    talk:
+      title: Webapps for the rest of the world
+      speaker: Didik Wicaksono
+    by: Adam Butler
+  - id: 2018-08-07-03
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A speaker in a cap and a red T-shirt smiles at a lectern.
+    by: Adam Butler
+  - id: 2018-08-07-04
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a red T-shirt gestures with both hands.
+    by: Adam Butler
+  - id: 2018-08-07-05
+    width: 600
+    height: 800
+    large_width: 1350
+    large_height: 1800
+    alt: A man in a black T-shirt holds a bottle in front of the projected slide.
+    by: Lewis Buckley
+  - id: 2018-08-07-06
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: An audience watches a speaker in a room with a sloped ceiling.
+    by: Lewis Buckley
+  - id: 2018-08-07-07
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: A full room of people watching a slide of charts.
+    by: Lewis Buckley
+  - id: 2018-08-07-08
+    width: 800
+    height: 386
+    large_width: 1800
+    large_height: 868
+    alt: 'A speaker at a lectern next to a slide that reads: My name is Sebastián.'
+    talk:
+      title: The Overnight Failure
+      speaker: Sebastian Sogamoso
+    by: Adam Butler
+  - id: 2018-08-07-09
+    width: 557
+    height: 800
+    large_width: 1254
+    large_height: 1800
+    alt: A speaker in a striped T-shirt talks at a lectern.
+    by: Adam Butler
+  - id: 2018-08-07-10
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A speaker in a striped T-shirt gestures beside a Cookpad banner.
+    by: Adam Butler
+- title: 'Great Western Rails #6'
+  subtitle: Ruby quiz night
+  date: 2018-06-19
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/250875242/
+  talks:
+  - title: Ruby quiz night
+  photos:
+  - id: 2018-06-19-01
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: A man in a checked shirt smiles in front of a Cookpad banner and a projected Ruby on Rails slide.
+    caption: Quiz Master - Lewis
+    by: Adam Butler
+  - id: 2018-06-19-02
+    width: 800
+    height: 491
+    large_width: 1800
+    large_height: 1105
+    alt: A man in a checked shirt talks from behind a laptop covered in stickers.
+    caption: Quiz Master - Lewis
+    by: Adam Butler
+  - id: 2018-06-19-03
+    width: 800
+    height: 445
+    large_width: 1800
+    large_height: 1001
+    alt: Two attendees sitting at a table with drinks and plates of food.
+    by: Adam Butler
+  - id: 2018-06-19-04
+    width: 800
+    height: 455
+    large_width: 1800
+    large_height: 1025
+    alt: A man laughing, seen in profile.
+    caption: Simon Starr
+    by: Adam Butler
+  - id: 2018-06-19-05
+    width: 800
+    height: 533
+    large_width: 1800
+    large_height: 1200
+    alt: Two men standing side by side, listening.
+    caption: Miles & Simon
+    by: Adam Butler
+  - id: 2018-06-19-06
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A bearded man in glasses holding a can of drink.
+    caption: Miles
+    by: Adam Butler
+  - id: 2018-06-19-07
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A man in a grey T-shirt stands by a window, listening.
+    caption: Simon Starr
+    by: Adam Butler
+  - id: 2018-06-19-08
+    width: 533
+    height: 800
+    large_width: 1200
+    large_height: 1800
+    alt: A man in glasses laughs, holding a drink and a plate of food.
+    caption: Olly
+    by: Adam Butler
+  - id: 2018-06-19-09
+    width: 539
+    height: 800
+    large_width: 1212
+    large_height: 1800
+    alt: A man in glasses listens with his chin on his hand.
+    caption: Alan Cruikshanks
+    by: Adam Butler
+- title: 'Great Western Rails #3'
+  date: 2018-03-20
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/246122912/
+  talks:
+  - title: Rails Database Tuning
+    speaker: Leonard (@lchin)
+  - title: 'Ruby on Rails: What''s coming in 5.2 and 6.0'
+    speaker: Prem (@sikachu)
+  photos:
+  - id: 2018-03-20-01
+    width: 800
+    height: 449
+    large_width: 1800
+    large_height: 1011
+    alt: A speaker in front of a projector screen talks to people sitting at tables.
+    by: Miles Woodroffe
+  - id: 2018-03-20-02
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: A man beside a projector talks to an audience at long wooden tables.
+    by: Miles Woodroffe
+  - id: 2018-03-20-03
+    width: 800
+    height: 453
+    large_width: 1800
+    large_height: 1020
+    alt: A room full of people standing and talking between the talks.
+    by: Miles Woodroffe
+- title: 'Great Western Rails #2'
+  date: 2018-02-20
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/246122899/
+  talks:
+  - title: Building Nexmo Developer, an open-source documentation platform
+    speaker: Adam Butler
+  - title: Open mic
+  photos:
+  - id: 2018-02-20-01
+    width: 600
+    height: 800
+    large_width: 1350
+    large_height: 1800
+    alt: 'A chalkboard sign that reads: Cookpad welcomes you to Great Western Rails meetup.'
+    caption: Cookpad Welcomes You! GWR
+    by: Miles Woodroffe
+  - id: 2018-02-20-02
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: A projected slide designed like a television test card, with a photo of a man at a chalkboard in the centre.
+    caption: "@labfoo test card"
+    by: Miles Woodroffe
+- title: 'Great Western Rails #1'
+  subtitle: Siri vs Alexa Ruby showdown
+  date: 2018-01-16
+  venue: Cookpad
+  meetup: https://www.meetup.com/south-west-ruby/events/246120740/
+  talks:
+  - title: Alexa, ask Cookpad... Fun with an Amazon Echo, Ruby and Recipes
+    speaker: "@tapster"
+  - title: Bringing Ruby Home. Integrating Ruby with HomeKit
+    speaker: Karl Entwistle
+  photos:
+  - id: 2018-01-16-01
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: Bottles of Bath Ales Gem and Golden Hare beer on a wooden table.
+    caption: installing some gems
+    by: Miles Woodroffe
+  - id: 2018-01-16-02
+    width: 600
+    height: 800
+    large_width: 1350
+    large_height: 1800
+    alt: Plates of canapés and small cakes laid out on a wooden table.
+    caption: Pinkmans spread
+    by: Miles Woodroffe
+  - id: 2018-01-16-03
+    width: 800
+    height: 600
+    large_width: 1800
+    large_height: 1350
+    alt: A darkened room of people watching a speaker present a slide.
+    caption: "@karlentwistle talking about Homekit"
+    by: Miles Woodroffe
+- title: From the group album
+  album: true
+  photos:
+  - id: 2024-10-16-18
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1012
+    alt: The Left Handed Giant brewpub at dusk, with a lit walkway that curves along the river.
+    by: Lewis Buckley
+    posted: '2024-10-16'
+  - id: 2023-07-09-17
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1012
+    alt: 'The current South West Ruby logo: a ruby in a red ring and the name in grey.'
+    by: Lewis Buckley
+    posted: '2023-07-09'
+  - id: 2023-06-14-16
+    width: 800
+    height: 450
+    large_width: 1024
+    large_height: 576
+    alt: An open-plan office with a curved bench, pink chairs and plants.
+    caption: Immersive Labs, Bristol
+    by: Lewis Buckley
+    posted: '2023-06-14'
+  - id: 2022-10-12-14
+    width: 768
+    height: 432
+    large_width: 768
+    large_height: 432
+    alt: Attendees in a room with fairy lights and bunting watch a slide on a screen.
+    by: Lewis Buckley
+    posted: '2022-10-12'
+  - id: 2021-10-22-12
+    width: 800
+    height: 450
+    large_width: 1536
+    large_height: 864
+    alt: People at picnic tables in the sun outside the Newtown Park Brewing Co tap room.
+    by: Lewis Buckley
+    posted: '2021-10-22'
+  - id: 2019-09-03-11
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1012
+    alt: A large audience faces a speaker and a projected slide under a Cookpad sign.
+    by: Miles Woodroffe
+    posted: '2019-09-03'
+  - id: 2019-07-15-10
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1012
+    alt: A full room watches a speaker, with a large photo of a man with long hair on the screen behind him.
+    by: Lewis Buckley
+    posted: '2019-07-15'
+  - id: 2019-02-25-09
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: An audience at tables watches a talk under a Cookpad sign.
+    by: Miles Woodroffe
+    posted: '2019-02-25'
+  - id: 2018-09-25-08
+    width: 800
+    height: 450
+    large_width: 1120
+    large_height: 630
+    alt: An empty event space with long wooden tables, a kitchen and shelves.
+    by: Miles Woodroffe
+    posted: '2018-09-25'
+  - id: 2018-08-16-07
+    width: 800
+    height: 450
+    large_width: 1276
+    large_height: 718
+    alt: A speaker with a conference lanyard stands in front of a dark screen.
+    by: Karl Entwistle
+    posted: '2018-08-16'
+  - id: 2018-08-02-06
+    width: 800
+    height: 450
+    large_width: 1580
+    large_height: 888
+    alt: A speaker in a Cookpad T-shirt presents on a stage next to a slide of yellow boxes.
+    by: Miles Woodroffe
+    posted: '2018-08-02'
+  - id: 2018-07-18-05
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: A speaker at a lectern presents to a seated audience in an office with a sloped ceiling.
+    by: Karl Entwistle
+    posted: '2018-07-18'
+  - id: 2018-07-03-04
+    width: 800
+    height: 450
+    large_width: 1800
+    large_height: 1013
+    alt: 'The first South West Ruby logo: a ruby in a red ring and the name in grey, on black.'
+    caption: South West Ruby
+    by: Lewis Buckley
+    posted: '2018-07-03'
+  - id: 2018-01-15-02
+    width: 800
+    height: 451
+    large_width: 1200
+    large_height: 676
+    alt: 'The Great Western Rails logo: the letters GWR in a red circle on black, with the word Rails.'
+    caption: Great Western Rails Meetup
+    by: Miles Woodroffe
+    posted: '2018-01-15'
